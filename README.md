@@ -1,4 +1,28 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automatic Grading System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #333;
+    }
+    h2 {
+      color: #666;
+    }
+    pre {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    code {
+      font-family: Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
   <h1>Automatic Grading System</h1>
 
   <p>This is an automatic grading system that runs on Ubuntu and is written in the C programming language.</p>
@@ -20,6 +44,14 @@
   <p><code>&lt;correct_output_path&gt;</code> is the path to the text file that contains the expected correct output.</p>
 
   <p>The program compiles and runs each student's code, comparing the output with the correct output using the code from ex21. It then assigns grades based on the comparison results.</p>
+
+  <p>During the execution of ex2.2, several important concepts are utilized:</p>
+
+  <ul>
+    <li><strong>Input Redirection:</strong> The program reads the input for each student's code from the specified input file by redirecting the file as standard input using the <code>&lt;</code> operator.</li>
+    <li><strong>Output Redirection:</strong> The program redirects the output of each student's code to a temporary file using the <code>&gt;</code> operator. This allows for easy comparison of the output with the correct output file.</li>
+    <li><strong>Fork:</strong> The program utilizes the <code>fork()</code> system call to create child processes. Each child process is responsible for compiling and executing a student's code.</li>
+  </ul>
 
   <h2>Ex21</h2>
 
