@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
+
   <title>Automatic Grading System</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-      color: #333;
-    }
-    h2 {
-      color: #666;
-    }
-    pre {
-      background-color: #f5f5f5;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    code {
-      font-family: Consolas, monospace;
-    }
-  </style>
-</head>
+
 <body>
   <h1>Automatic Grading System</h1>
 
