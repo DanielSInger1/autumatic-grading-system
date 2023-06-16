@@ -1,32 +1,4 @@
-# autumatic-grading-system
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Automatic Grading System - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-    }
 
-    h1 {
-      color: #333;
-    }
-
-    code {
-      font-family: Consolas, monospace;
-      background-color: #f4f4f4;
-      padding: 2px 4px;
-    }
-
-    pre {
-      background-color: #f4f4f4;
-      padding: 10px;
-      overflow: auto;
-    }
-  </style>
-</head>
-<body>
   <h1>Automatic Grading System</h1>
 
   <p>This is an automatic grading system that runs on Ubuntu and is written in the C programming language.</p>
