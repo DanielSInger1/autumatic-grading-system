@@ -35,10 +35,19 @@
 
   <p>Ex21 is a utility code used by ex2.2 to compare if two text files are identical.</p>
   
-for compilng and running the program:
+Instructions
+To compile and run the programs, follow these steps:
 
+Compile ex2.2.c:
+ruby
+Copy code
 $ gcc ex2.2.c -o ex2.2
-
+Compile ex21.c:
+ruby
+Copy code
 $ gcc ex21.c -o ex21
+Run ex2.2 with the specified configuration file:
+shell
+Copy code
 $ ./ex2.2 config.txt
- 
+Make sure you have the required input files and folder structure as specified in the config file.
