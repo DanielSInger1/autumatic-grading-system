@@ -38,6 +38,7 @@
 for compilng and running the program:
 
 $ gcc ex2.2.c -o ex2.2
+
 $ gcc ex21.c -o ex21
 $ ./ex2.2 config.txt
  
