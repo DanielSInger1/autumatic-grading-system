@@ -70,4 +70,15 @@
     <li>For each student, it compiles their C code using GCC and checks for any compilation errors.</li>
     <li>If the code compiles successfully, it runs the executable and redirects the input and output streams.</li>
     <li>The program then compares the output with the expected output using the <code>comp.out</code> program.</li>
-    <li>Based on the comparison results, it assigns grades to
+    <li>Based on the comparison results, it assigns grades to the students.</li>
+    <li>The grading results, including student names and grades, are written to the <code>results.csv</code> file.</li>
+    <li>Any compilation errors or runtime errors encountered during the grading process are recorded in the <code>errors.txt</code> file.</li>
+  </ul>
+
+  <h2>Customization</h2>
+  <p>You can customize the code to suit your specific needs. For example, you can modify the grading criteria, handle different types of student submissions, or extend the functionality of the system.</p>
+
+  <h2>Disclaimer</h2>
+  <p>Please note that this automatic grading system serves as a starting point and may require additional modifications and improvements to fit your particular use case. It is important to thoroughly test and validate the system before using it in a production environment.</p>
+</body>
+</html>
