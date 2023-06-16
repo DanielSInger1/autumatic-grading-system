@@ -71,6 +71,26 @@ $ ./ex2.2 config.txt</code></pre>
 
   <p>Make sure you have the required input files and folder structure as specified in the config file.</p>
 
+`<folder_path>` is the path to the folder that contains all the student folders. Each student folder should contain their submitted code.
+
+`<input_path>` is the path to the text file that contains the input for the code.
+
+`<correct_output_path>` is the path to the text file that contains the expected correct output.
+
+The program compiles and runs each student's code, comparing the output with the correct output using the code from ex21. It then assigns grades based on the comparison results.
+
+During the execution of ex2.2, several important concepts are utilized:
+
+- **Input Redirection:** The program reads the input for each student's code from the specified input file by redirecting the file as standard input using the `<` operator.
+- **Output Redirection:** The program redirects the output of each student's code to a temporary file using the `>` operator. This allows for easy comparison of the output with the correct output file.
+- **Fork:** The program utilizes the `fork()` system call to create child processes. Each child process is responsible for compiling and executing a student's code.
+
+## Ex21
+
+Ex21 is a utility code used by ex2.2 to compare if two text files are identical.
+
+
+
   <h2>License</h2>
 
   <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
