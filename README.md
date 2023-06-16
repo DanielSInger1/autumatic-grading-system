@@ -1,5 +1,4 @@
 
-  <title>Automatic Grading System</title>
 
 <body>
   <h1>Automatic Grading System</h1>
@@ -70,8 +69,4 @@ Ex21 is a utility code used by ex2.2 to compare if two text files are identical.
 
 
 
-  <h2>License</h2>
-
-  <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
-</body>
-</html>
+ 
